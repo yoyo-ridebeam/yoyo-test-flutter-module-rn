@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   flutter_module_rn
                    DESC
-  s.homepage     = "https://github.com/github_account/flutter_module_rn"
+  s.homepage     = "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn"
   # brief license entry:
   # s.license      = "MIT"
   # optional - use expanded license entry instead:
   s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
+  s.authors      = { "Yoyo" => "yoyo@ridebeam.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => package['repository']['url'], :tag => "#{s.version}" }
 

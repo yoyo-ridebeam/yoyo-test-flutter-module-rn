@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.homepage = package['homepage']
 
   s.version = package['version']
-  s.source = { :http => "file://#{__dir__}/../../build/ios/framework/Release.zip"}
-# You can reference sources as a git repository instead:
-# s.source = { :git => "https://github.com/p-mazhnik/rn-package-flutter.git", :tag => 'some tag' } 
+  # s.source = { :http => "file://#{__dir__}/../../build/ios/framework/Release.zip"}
+  # You can reference sources as a git repository instead:
+  s.source = { :git => "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn.git" } 
   s.authors      = { package['author']['name'] => package['author']['url'] }
 
   s.preserve_paths = "**/*.xcframework"
