@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "TODO",
   "main": "index.js",
-  "homepage": ".",
   "files": [
     "README.md",
     "android",
@@ -12,13 +11,14 @@
     "ios",
     "flutter_module_rn.podspec"
   ],
+  "homepage": ".",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn.git",
-    "baseUrl": "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn"
+    "url": "git+https://github.com/github_account/flutter_module_rn.git",
+    "baseUrl": "https://github.com/github_account/flutter_module_rn"
   },
   "keywords": [
     "react-native"

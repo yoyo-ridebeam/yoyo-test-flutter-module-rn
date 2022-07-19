@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
   s.name = "FlutterModuleFrameworks-Debug"
   s.summary = 'FlutterModuleFrameworks'
   s.description = package['description']
-  # s.license = package['license']
+  s.license = package['license']
   s.homepage = package['homepage']
 
   s.version = package['version']
-  # s.source = { :http => "file://#{__dir__}/../../build/ios/framework/Debug.zip"}
-  # You can reference sources as a git repository instead:
+  # s.source = { :http => "123file:///#{__dir__}/../../build/ios/framework/Debug.zip"}
+# You can reference sources as a git repository instead:
   s.source = { :git => "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn.git" } 
   s.authors      = { package['author']['name'] => package['author']['url'] }
 

@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn"
   # brief license entry:
-  # s.license      = "MIT"
+  s.license      = "MIT"
   # optional - use expanded license entry instead:
-  s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Yoyo" => "yoyo@ridebeam.com" }
+  # s.license    = { :type => "MIT", :file => "LICENSE" }
+  s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => package['repository']['url'], :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn.git" }
 
-  s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
+  s.source_files = "ios123/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
 
   s.dependency "React"
