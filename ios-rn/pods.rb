@@ -6,10 +6,10 @@ def use_flutter_module_rn! (options={})
   prefix = options[:path] ||= "../node_modules/#{packageName}"
 
   pod 'Flutter', :path => "#{prefix}/build/ios/framework/Release/Flutter.podspec"
-  pod 'FlutterModuleFrameworks-Debug',
+  pod 'FlutterModuleRn-Debug',
     :configuration => 'Debug',
     :path => "#{prefix}/ios-rn/Podspecs/FlutterModuleRn-Debug.podspec"
-  pod 'FlutterModuleFrameworks-Release',
+  pod 'FlutterModuleRn-Release',
     :configuration => 'Release',
     :path => "#{prefix}/ios-rn/Podspecs/FlutterModuleRn-Release.podspec"
 end

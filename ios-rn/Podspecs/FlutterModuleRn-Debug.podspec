@@ -3,8 +3,8 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, '../../package.json')))
 
 Pod::Spec.new do |s|
-  s.name = "FlutterModuleFrameworks-Debug"
-  s.summary = 'FlutterModuleFrameworks'
+  s.name = "FlutterModuleRn-Debug"
+  s.summary = 'FlutterModuleRn-Debug'
   s.description = package['description']
   s.license = package['license']
   s.homepage = package['homepage']
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.source_files = "**/*.{swift,h,m}"
   s.vendored_frameworks = '**/*.xcframework'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => "'${PODS_ROOT}/FlutterModuleFrameworks-Debug'"}
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => "'${PODS_ROOT}/FlutterModuleRn-Debug'"}
   s.requires_arc = true
 end

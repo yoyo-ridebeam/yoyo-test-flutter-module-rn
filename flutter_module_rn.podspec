@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/yoyo-ridebeam/yoyo-test-flutter-module-rn.git" }
 
-  s.source_files = "ios123/**/*.{h,c,cc,cpp,m,mm,swift}"
+  s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
 
   s.dependency "React"
   s.dependency "Flutter"
-  s.dependency "FlutterModuleFrameworks-Debug"
-  s.dependency "FlutterModuleFrameworks-Release"
+  s.dependency "FlutterModuleRn-Debug"
+  s.dependency "FlutterModuleRn-Release"
   # ...
   # s.dependency "..."
 end
